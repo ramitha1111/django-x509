@@ -1,6 +1,7 @@
 name: Changelog Bot Trigger
 
 on:
+  workflow_dispatch:
   pull_request_review:
     types: [submitted]
 
